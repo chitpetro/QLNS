@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{509A518F-2CB9-404D-A62E-BE3DEEBC5014}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLNS</RootNamespace>
+    <AssemblyName>QLNS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>14__logo_chitchareune_const_co_m4P_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v18.2" />
+    <Reference Include="DevExpress.Charts.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v18.2" />
+    <Reference Include="DevExpress.DataAccess.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v18.2.UI, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dialogs.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v18.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v18.2.Export, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.2" />
+    <Reference Include="DevExpress.Utils.v18.2.UI, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v18.2" />
+    <Reference Include="DevExpress.Sparkline.v18.2.Core" />
+    <Reference Include="DevExpress.XtraCharts.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.Wizard, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDialogs.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.2" />
+    <Reference Include="DevExpress.XtraGauges.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_btnmo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_btnmo.Designer.cs">
+      <DependentUpon>frm_btnmo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_dsribbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dsribbon.Designer.cs">
+      <DependentUpon>frm_dsribbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_account.Designer.cs">
+      <DependentUpon>f_account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dieuchuyenns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dieuchuyenns.Designer.cs">
+      <DependentUpon>f_dieuchuyenns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dschucvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dschucvu.Designer.cs">
+      <DependentUpon>f_dschucvu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dsdieuchuyenct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dsdieuchuyenct.Designer.cs">
+      <DependentUpon>f_dsdieuchuyenct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dsdieuchuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dsdieuchuyen.Designer.cs">
+      <DependentUpon>f_dsdieuchuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dskhuvuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dskhuvuc.Designer.cs">
+      <DependentUpon>f_dskhuvuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dsnghiphep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dsnghiphep.Designer.cs">
+      <DependentUpon>f_dsnghiphep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dsphongban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dsphongban.Designer.cs">
+      <DependentUpon>f_dsphongban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dsnoict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dsnoict.Designer.cs">
+      <DependentUpon>f_dsnoict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_form1.Designer.cs">
+      <DependentUpon>f_form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_history.Designer.cs">
+      <DependentUpon>f_history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_main.Designer.cs">
+      <DependentUpon>f_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_nghiphep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_nghiphep.Designer.cs">
+      <DependentUpon>f_nghiphep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_phanquyenchucnang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_phanquyenchucnang.Designer.cs">
+      <DependentUpon>f_phanquyenchucnang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_themaccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_themaccount.Designer.cs">
+      <DependentUpon>f_themaccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_themchucvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_themchucvu.Designer.cs">
+      <DependentUpon>f_themchucvu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_themkhuvuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_themkhuvuc.Designer.cs">
+      <DependentUpon>f_themkhuvuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_themnoict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_themnoict.Designer.cs">
+      <DependentUpon>f_themnoict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_themphongban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_themphongban.Designer.cs">
+      <DependentUpon>f_themphongban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mes.cs" />
+    <Compile Include="custom.cs" />
+    <Compile Include="CustomGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomGridLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomSearchLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frm_ds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ds.Designer.cs">
+      <DependentUpon>frm_ds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_form.Designer.cs">
+      <DependentUpon>frm_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_themds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_themds.Designer.cs">
+      <DependentUpon>frm_themds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_connectDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_connectDB.Designer.cs">
+      <DependentUpon>f_connectDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_dsnhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_dsnhanvien.Designer.cs">
+      <DependentUpon>f_dsnhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_login.Designer.cs">
+      <DependentUpon>f_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_themnhansu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_themnhansu.Designer.cs">
+      <DependentUpon>f_themnhansu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="md5.cs" />
+    <Compile Include="mod_KetNoi.cs" />
+    <Compile Include="ObjPhanQuyen.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="r_dsnhanvien.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="r_dsnhanvien.Designer.cs">
+      <DependentUpon>r_dsnhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sttgv.cs" />
+    <Compile Include="XtraForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm1.Designer.cs">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XtraForm2.Designer.cs">
+      <DependentUpon>XtraForm2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomGridControl.resx">
+      <DependentUpon>CustomGridControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomSearchLookUpEdit.resx">
+      <DependentUpon>CustomSearchLookUpEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_btnmo.resx">
+      <DependentUpon>frm_btnmo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_dsribbon.resx">
+      <DependentUpon>frm_dsribbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ds.resx">
+      <DependentUpon>frm_ds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_form.resx">
+      <DependentUpon>frm_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_themds.resx">
+      <DependentUpon>frm_themds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_account.resx">
+      <DependentUpon>f_account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_connectDB.resx">
+      <DependentUpon>f_connectDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dieuchuyenns.resx">
+      <DependentUpon>f_dieuchuyenns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dschucvu.resx">
+      <DependentUpon>f_dschucvu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dsdieuchuyenct.resx">
+      <DependentUpon>f_dsdieuchuyenct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dsdieuchuyen.resx">
+      <DependentUpon>f_dsdieuchuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dskhuvuc.resx">
+      <DependentUpon>f_dskhuvuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dsnghiphep.resx">
+      <DependentUpon>f_dsnghiphep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dsnhanvien.resx">
+      <DependentUpon>f_dsnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dsnoict.resx">
+      <DependentUpon>f_dsnoict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_dsphongban.resx">
+      <DependentUpon>f_dsphongban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_form1.resx">
+      <DependentUpon>f_form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_history.resx">
+      <DependentUpon>f_history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_login.resx">
+      <DependentUpon>f_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_main.resx">
+      <DependentUpon>f_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_nghiphep.resx">
+      <DependentUpon>f_nghiphep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_phanquyenchucnang.resx">
+      <DependentUpon>f_phanquyenchucnang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_themaccount.resx">
+      <DependentUpon>f_themaccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_themchucvu.resx">
+      <DependentUpon>f_themchucvu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_themkhuvuc.resx">
+      <DependentUpon>f_themkhuvuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_themnhansu.resx">
+      <DependentUpon>f_themnhansu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_themnoict.resx">
+      <DependentUpon>f_themnoict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_themphongban.resx">
+      <DependentUpon>f_themphongban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="r_dsnhanvien.resx">
+      <DependentUpon>r_dsnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm2.resx">
+      <DependentUpon>XtraForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\DataSources\DAL.dmchucvu.datasource" />
+    <None Include="Properties\DataSources\DAL.khuvuc.datasource" />
+    <None Include="Properties\DataSources\DAL.phongban.datasource" />
+    <None Include="Properties\DataSources\DAL.r_noicongtac.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{eb68a4aa-5983-4201-82ac-f3bdd7d30971}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{e079dbc6-30af-4e22-ac04-10171dc49294}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Update\Update.csproj">
+      <Project>{462b1589-2f44-48d0-8231-5b6363ecfa62}</Project>
+      <Name>Update</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-login-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Programming-Minimize-Window-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-Close-Program-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.-Logo-Chitchareune-Const-Co.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Control-Panel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boemployee_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bocustomer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\additem_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\additem_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\additem_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\additem_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32x323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\article_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletesheetrows_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boposition2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-world-map-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-world-map-401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transit_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookup&amp;reference_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookup&amp;reference_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookup&amp;reference_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42497-department-store-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-decentralized-network-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder-URL-History-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_16x163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-enter-key-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\additem_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletelist_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="14__logo_chitchareune_const_co_m4P_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

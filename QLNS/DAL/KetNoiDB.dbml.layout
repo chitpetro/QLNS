@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 17.875, 18.75" name="KetNoiDB">
+  <DataContextMoniker Name="/KetNoiDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a55888cd-3398-4fd6-b172-467c8b1e4279" absoluteBounds="0.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KetNoiDBDataContext/account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab21c953-cfe8-4bfd-9a7c-2a637e6e52cd" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6dd7cd2e-f0bb-4574-b5e6-d697f48f11be" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/KetNoiDBDataContext/tudong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ef72b805-c784-44c4-bdb9-5b7196f9e034" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9b7d418-a59c-460e-bd47-12f2b9b6fdc6" absoluteBounds="13, 8.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/KetNoiDBDataContext/ChucNang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c812092f-49d2-40cd-860e-01ff51aac6e3" absoluteBounds="13.015, 9.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55af41d5-0cf3-4da8-88ab-58ec31700118" absoluteBounds="3.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/KetNoiDBDataContext/dk_rp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74b818d2-b7ec-424d-b773-dc480aed4ea0" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4bea377b-57ba-4e55-af6f-c77fa8aeda9e" absoluteBounds="0.75, 6.75, 2, 3.5016097005208318">
+      <DataClassMoniker Name="/KetNoiDBDataContext/doituong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04575c2d-4a7c-4e52-878d-110c705e2164" absoluteBounds="0.765, 7.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="406d8898-cf78-4d07-a0a7-f2bbd3755ca3" absoluteBounds="6.75, 2.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/KetNoiDBDataContext/donvi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f5ab8c8-aac3-4a8a-b0e3-422866fb56c1" absoluteBounds="6.765, 3.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f66318e5-25c7-4c80-818d-59a8df89e459" absoluteBounds="9.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/KetNoiDBDataContext/nhomdoituong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48756150-90ef-4c55-9001-b70e455a9c83" absoluteBounds="9.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="056f96bd-a75e-46c1-8e36-997d193cc939" absoluteBounds="15.625, 8.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/KetNoiDBDataContext/PhanQuyen2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0653753-326c-40c6-9fa3-c7cb1ba0b74f" absoluteBounds="15.64, 8.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="70fddeeb-8f62-48b9-88c5-92f2ccc74638" absoluteBounds="9.75, 7.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/KetNoiDBDataContext/skin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c9cf6f2-ceaf-4510-a5d2-e73b05e66ba2" absoluteBounds="9.765, 8.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfd454e1-0441-4128-927a-468d61bd897a" absoluteBounds="9.75, 9.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/KetNoiDBDataContext/t_skin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c994723-b2d4-4109-ae35-400727e6401d" absoluteBounds="9.765, 10.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dfc4bded-1496-41d1-a5e0-978cd2482d67" absoluteBounds="3.25, 6.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KetNoiDBDataContext/history" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5bd1ae68-6171-4492-aaf6-907a03b8c9a1" absoluteBounds="3.2649999999999997, 7.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="02987f6c-a893-4731-af88-716a6c47790e" absoluteBounds="12.5, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/KetNoiDBDataContext/dmchucvu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdbf7e8c-861b-4dfc-a115-a8efff4cadd0" absoluteBounds="12.515, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ef6b14e-6cda-4061-a366-28e0f83419cd" absoluteBounds="12.5, 2.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/KetNoiDBDataContext/noict" />
+      <nestedChildShapes>
+        <elementListCompartment Id="855a60d1-7f7d-467a-8aaa-49570750c915" absoluteBounds="12.515, 3.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90109efa-eec6-4a48-b73e-27c0f26f3954" absoluteBounds="15, 2.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/KetNoiDBDataContext/khuvuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93b6ed24-68c7-4cd7-98cb-d032c2d50266" absoluteBounds="15.015, 2.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7b34bb6d-27f1-4997-9910-e4387c1b7f69" absoluteBounds="12.875, 5.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/KetNoiDBDataContext/r_noicongtac" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6c8793e-a4e8-4063-bf2f-3ad6adeca047" absoluteBounds="12.89, 6.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="33a94f52-be7b-4555-9e2e-d713a536fa3d" absoluteBounds="6.375, 13.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KetNoiDBDataContext/dieuchuyennhansu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ece3df48-af69-4689-bfb2-d00436dc9a45" absoluteBounds="6.39, 14.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cb323acb-b7ea-4f98-8a1d-ae2b7f43db69" absoluteBounds="0.875, 16.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/KetNoiDBDataContext/r_dieuchuyennhansu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7518754-00e4-4473-a93a-91531b44cc10" absoluteBounds="0.89000000000000012, 16.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5b09056-bd22-457d-9e68-c6cd2d029d7c" absoluteBounds="9.125, 5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/KetNoiDBDataContext/phongban" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2217b048-a984-4b37-a9a3-ab924e62ad7c" absoluteBounds="9.14, 5.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15 : 9.56814697265625); (15.625 : 9.56814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/KetNoiDBDataContext/ChucNang/ChucNang_PhanQuyen2" />
+      <nodes>
+        <classShapeMoniker Id="b9b7d418-a59c-460e-bd47-12f2b9b6fdc6" />
+        <classShapeMoniker Id="056f96bd-a75e-46c1-8e36-997d193cc939" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="33e90c37-22a0-484e-92a0-60d2886ab783" absoluteBounds="0.5, 3.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KetNoiDBDataContext/r_dsaccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7cbea266-d3ea-412c-a3ae-d8ab6f248e23" absoluteBounds="0.515, 3.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="46352af9-7bf4-445f-9c9c-c4f4a66019f7" absoluteBounds="0.5, 10.5, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/KetNoiDBDataContext/r_dsnhansu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f35f190-a31e-430f-bbd6-d217f4a88a53" absoluteBounds="0.515, 10.96, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e5a9801-5a43-4d51-9c98-e0b2cbfd8a52" absoluteBounds="3.375, 15.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/KetNoiDBDataContext/nghiphep" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df9b6560-aff5-4204-bb6c-62ea85247c2a" absoluteBounds="3.3899999999999997, 16.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="185bbbb5-b0b7-4bee-9477-2a4c305ca02f" absoluteBounds="3.375, 9.125, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/KetNoiDBDataContext/nhansu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="923153c6-c1a5-47ac-9274-c860cfe394f3" absoluteBounds="3.3899999999999997, 9.585, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1df1d3cb-62ea-4c88-8ea5-5a1fa11007a3" absoluteBounds="6.875, 9.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/KetNoiDBDataContext/filen" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cb5e0d9-36fa-4570-9b22-ed56b09ab02d" absoluteBounds="6.89, 9.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.375 : 10.4815991210937); (6.875 : 10.4815991210937)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/KetNoiDBDataContext/nhansu/nhansu_filen" />
+      <nodes>
+        <classShapeMoniker Id="185bbbb5-b0b7-4bee-9477-2a4c305ca02f" />
+        <classShapeMoniker Id="1df1d3cb-62ea-4c88-8ea5-5a1fa11007a3" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
